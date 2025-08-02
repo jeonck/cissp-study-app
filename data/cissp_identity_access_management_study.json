@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "topic": "Identity and Access Management",
+    "description": "Managing user identities and controlling access to systems and data.",
+    "reference": "CISSP CBK Domain 5: Identity and Access Management"
+  },
+  {
+    "id": 2,
+    "topic": "Identification",
+    "description": "Determining who a user or entity claims to be, e.g., username.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 3,
+    "topic": "Authentication",
+    "description": "Verifying the identity of a user or entity, e.g., entering a password.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 4,
+    "topic": "Authorization",
+    "description": "Granting access to resources based on verified identity and permissions.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 5,
+    "topic": "Accountability",
+    "description": "Tracking user actions to ensure traceability, e.g., audit logs.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 6,
+    "topic": "Access Control",
+    "description": "Restricting access to resources to authorized users only.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 7,
+    "topic": "Discretionary Access Control (DAC)",
+    "description": "Access controlled by the resource owner’s discretion.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 8,
+    "topic": "Mandatory Access Control (MAC)",
+    "description": "Access based on security labels and strict policies.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 9,
+    "topic": "Role-Based Access Control (RBAC)",
+    "description": "Access granted based on user roles within the organization.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 10,
+    "topic": "Attribute-Based Access Control (ABAC)",
+    "description": "Access based on attributes of user, resource, or environment.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 11,
+    "topic": "Rule-Based Access Control",
+    "description": "Access determined by predefined rules, often used in firewalls.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 12,
+    "topic": "Least Privilege",
+    "description": "Granting only the minimum access necessary for tasks.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 13,
+    "topic": "Need-to-Know",
+    "description": "Access limited to information required for job functions.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 14,
+    "topic": "Separation of Duties",
+    "description": "Dividing tasks to prevent fraud or errors by one individual.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 15,
+    "topic": "Authentication Factors",
+    "description": "Types: Something you know, have, or are (knowledge, possession, inherence).",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 16,
+    "topic": "Something You Know",
+    "description": "Authentication factor like passwords or PINs.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 17,
+    "topic": "Something You Have",
+    "description": "Authentication factor like smart cards or tokens.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 18,
+    "topic": "Something You Are",
+    "description": "Authentication factor like biometrics, e.g., fingerprints.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 19,
+    "topic": "Multi-Factor Authentication (MFA)",
+    "description": "Using two or more authentication factors for stronger security.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 20,
+    "topic": "Single Sign-On (SSO)",
+    "description": "One set of credentials for accessing multiple systems.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 21,
+    "topic": "Federated Identity",
+    "description": "Sharing identity across organizations for seamless access.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 22,
+    "topic": "Security Assertion Markup Language (SAML)",
+    "description": "XML-based standard for exchanging authentication and authorization data.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 23,
+    "topic": "OAuth",
+    "description": "Protocol for authorization, allowing third-party access to resources.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 24,
+    "topic": "OpenID Connect",
+    "description": "Authentication layer built on OAuth 2.0 for identity verification.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 25,
+    "topic": "Kerberos",
+    "description": "Network authentication protocol using tickets and symmetric encryption.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 26,
+    "topic": "Identity Provider (IdP)",
+    "description": "Entity managing user identities and authentication, e.g., in SSO.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 27,
+    "topic": "Service Provider (SP)",
+    "description": "Entity relying on IdP for authentication in federated systems.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 28,
+    "topic": "Biometric Authentication",
+    "description": "Using physical or behavioral traits for identity verification.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 29,
+    "topic": "False Acceptance Rate (FAR)",
+    "description": "Rate at which unauthorized users are incorrectly granted access.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 30,
+    "topic": "False Rejection Rate (FRR)",
+    "description": "Rate at which authorized users are incorrectly denied access.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 31,
+    "topic": "Crossover Error Rate (CER)",
+    "description": "Point where FAR and FRR are equal in biometric systems.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 32,
+    "topic": "Password",
+    "description": "Secret string used for authentication, should be complex and unique.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 33,
+    "topic": "Password Policy",
+    "description": "Rules for password length, complexity, and expiration.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 34,
+    "topic": "Password Hashing",
+    "description": "Storing passwords as hashed values, e.g., using bcrypt or SHA-256.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 35,
+    "topic": "Salting",
+    "description": "Adding random data to passwords before hashing to prevent attacks.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 36,
+    "topic": "Brute Force Attack",
+    "description": "Trying all possible password combinations to gain access.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 37,
+    "topic": "Dictionary Attack",
+    "description": "Using a list of common passwords to guess credentials.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 38,
+    "topic": "Rainbow Table Attack",
+    "description": "Using precomputed hash tables to crack passwords.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 39,
+    "topic": "Account Lockout",
+    "description": "Disabling an account after multiple failed login attempts.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 40,
+    "topic": "Session Management",
+    "description": "Controlling active user sessions to prevent unauthorized access.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 41,
+    "topic": "Session Timeout",
+    "description": "Automatically ending a session after inactivity to enhance security.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 42,
+    "topic": "Session Hijacking",
+    "description": "Stealing an active session to gain unauthorized access.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 43,
+    "topic": "Access Control List (ACL)",
+    "description": "List specifying permissions for users or groups on resources.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 44,
+    "topic": "Privilege Escalation",
+    "description": "Gaining higher access rights than authorized, e.g., vertical or horizontal.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 45,
+    "topic": "Identity Management",
+    "description": "Managing user identities and their lifecycle across systems.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 46,
+    "topic": "Identity Lifecycle",
+    "description": "Stages: Provisioning, Management, Deprovisioning of user identities.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 47,
+    "topic": "User Provisioning",
+    "description": "Creating and configuring user accounts for access.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 48,
+    "topic": "Deprovisioning",
+    "description": "Removing or disabling user accounts when no longer needed.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 49,
+    "topic": "Privileged Account Management (PAM)",
+    "description": "Controlling and monitoring accounts with elevated access rights.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 50,
+    "topic": "Service Account",
+    "description": "Non-human account used by applications or services for access.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 51,
+    "topic": "Access Review",
+    "description": "Periodic audit of user access rights to ensure appropriateness.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 52,
+    "topic": "Authentication Token",
+    "description": "Physical or digital device used for authentication, e.g., smart card.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 53,
+    "topic": "One-Time Password (OTP)",
+    "description": "Temporary password valid for a single use, e.g., via authenticator apps.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 54,
+    "topic": "Smart Card",
+    "description": "Physical card with a chip for authentication and secure access.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 55,
+    "topic": "Biometric Types",
+    "description": "Examples: Fingerprint, iris scan, facial recognition, voice recognition.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 56,
+    "topic": "Behavioral Biometrics",
+    "description": "Authentication based on behavior, e.g., typing patterns or gait.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 57,
+    "topic": "Two-Factor Authentication (2FA)",
+    "description": "Using two different authentication factors, e.g., password and OTP.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 58,
+    "topic": "Identity Federation",
+    "description": "Linking user identities across multiple systems or organizations.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 59,
+    "topic": "Directory Services",
+    "description": "Centralized database for managing user identities, e.g., LDAP.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 60,
+    "topic": "Lightweight Directory Access Protocol (LDAP)",
+    "description": "Protocol for accessing and managing directory information.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 61,
+    "topic": "Active Directory (AD)",
+    "description": "Microsoft’s directory service for managing users and resources.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 62,
+    "topic": "Authentication Server",
+    "description": "System verifying user credentials, e.g., RADIUS or TACACS+.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 63,
+    "topic": "RADIUS",
+    "description": "Remote Authentication Dial-In User Service, for centralized authentication.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 64,
+    "topic": "TACACS+",
+    "description": "Terminal Access Controller Access-Control System, for network device authentication.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 65,
+    "topic": "Identity Governance",
+    "description": "Policies and processes for managing and securing identities.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 66,
+    "topic": "Identity as a Service (IDaaS)",
+    "description": "Cloud-based identity management and authentication services.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 67,
+    "topic": "Access Control Policy",
+    "description": "Rules defining who can access what resources and how.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 68,
+    "topic": "Role Management",
+    "description": "Defining and maintaining roles for RBAC systems.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 69,
+    "topic": "Entitlement Management",
+    "description": "Managing user permissions and access rights across systems.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 70,
+    "topic": "Access Certification",
+    "description": "Process to verify and approve user access periodically.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 71,
+    "topic": "Accountability Logging",
+    "description": "Recording user actions for auditing and compliance.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 72,
+    "topic": "Audit Trail",
+    "description": "Chronological record of system activities for accountability.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 73,
+    "topic": "Access Control Matrix",
+    "description": "Table mapping subjects to objects with their permissions.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 74,
+    "topic": "Capability Table",
+    "description": "List of permissions assigned to a subject for specific objects.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 75,
+    "topic": "Authentication Protocols",
+    "description": "Protocols like PAP, CHAP, or EAP for secure authentication.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 76,
+    "topic": "Password Authentication Protocol (PAP)",
+    "description": "Basic authentication protocol, transmits credentials in cleartext.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 77,
+    "topic": "Challenge Handshake Authentication Protocol (CHAP)",
+    "description": "Secure authentication using challenge-response mechanism.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 78,
+    "topic": "Extensible Authentication Protocol (EAP)",
+    "description": "Flexible authentication framework used in wireless and VPNs.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 79,
+    "topic": "Zero Trust",
+    "description": "Security model requiring continuous verification of all access requests.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 80,
+    "topic": "Context-Based Authentication",
+    "description": "Authentication considering factors like location or device.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 81,
+    "topic": "Risk-Based Authentication",
+    "description": "Adjusting authentication requirements based on risk level.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 82,
+    "topic": "Identity Proofing",
+    "description": "Verifying a user’s identity before granting access credentials.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 83,
+    "topic": "Credential Management",
+    "description": "Securely storing and managing authentication credentials.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 84,
+    "topic": "Password Manager",
+    "description": "Tool for securely storing and generating complex passwords.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 85,
+    "topic": "Account Recovery",
+    "description": "Process for restoring access to users who lose credentials.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 86,
+    "topic": "Social Engineering",
+    "description": "Manipulating users to gain unauthorized access, e.g., phishing.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 87,
+    "topic": "Phishing",
+    "description": "Fraudulent attempt to steal credentials via fake emails or sites.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 88,
+    "topic": "Access Control Attacks",
+    "description": "Methods like password cracking or privilege escalation to bypass IAM.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 89,
+    "topic": "Session Token",
+    "description": "Temporary identifier for an authenticated user session.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 90,
+    "topic": "Identity Verification",
+    "description": "Confirming a user’s identity through documents or other means.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 91,
+    "topic": "Access Governance",
+    "description": "Ensuring access policies align with business and compliance needs.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 92,
+    "topic": "User Entitlement",
+    "description": "Specific permissions granted to a user for accessing resources.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 93,
+    "topic": "Access Control Models",
+    "description": "Frameworks like DAC, MAC, RBAC, and ABAC for managing access.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 94,
+    "topic": "Identity Repository",
+    "description": "Centralized storage for user identity data, e.g., directory services.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 95,
+    "topic": "Authentication Policy",
+    "description": "Rules defining acceptable authentication methods and requirements.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 96,
+    "topic": "Access Monitoring",
+    "description": "Tracking access attempts to detect unauthorized activities.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 97,
+    "topic": "Identity Analytics",
+    "description": "Using data analysis to detect anomalies in identity and access patterns.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 98,
+    "topic": "Privileged Access",
+    "description": "Elevated access rights requiring strict controls and monitoring.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 99,
+    "topic": "Identity Synchronization",
+    "description": "Ensuring consistent identity data across multiple systems.",
+    "reference": "CISSP CBK Domain 5"
+  },
+  {
+    "id": 100,
+    "topic": "Access Control Framework",
+    "description": "Structured approach to implementing IAM policies and controls.",
+    "reference": "CISSP CBK Domain 5"
+  }
+]

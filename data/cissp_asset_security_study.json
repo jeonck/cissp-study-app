@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "topic": "Asset Security",
+    "description": "Focuses on protecting assets through classification, ownership, and handling requirements.",
+    "reference": "CISSP CBK Domain 2: Asset Security"
+  },
+  {
+    "id": 2,
+    "topic": "Asset",
+    "description": "Anything of value to an organization, including data, hardware, software, and personnel.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 3,
+    "topic": "Data Classification",
+    "description": "Categorizing data based on sensitivity, e.g., Public, Confidential, Secret.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 4,
+    "topic": "Data Labeling",
+    "description": "Marking data with its classification level to ensure proper handling.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 5,
+    "topic": "Data Owner",
+    "description": "Individual responsible for classifying and protecting data.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 6,
+    "topic": "Data Custodian",
+    "description": "Individual responsible for implementing data protection measures.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 7,
+    "topic": "Data User",
+    "description": "Individual authorized to access and use data for business purposes.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 8,
+    "topic": "Data Sensitivity",
+    "description": "Level of protection required based on data’s value and impact if compromised.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 9,
+    "topic": "Data Lifecycle",
+    "description": "Stages of data: Creation, Storage, Usage, Sharing, Archiving, Destruction.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 10,
+    "topic": "Data Creation",
+    "description": "Initial generation or collection of data, requiring classification.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 11,
+    "topic": "Data Storage",
+    "description": "Securing data at rest using encryption, access controls, and backups.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 12,
+    "topic": "Data Usage",
+    "description": "Ensuring data is accessed and processed only by authorized users.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 13,
+    "topic": "Data Sharing",
+    "description": "Securely transferring data internally or externally with proper controls.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 14,
+    "topic": "Data Archiving",
+    "description": "Long-term storage of data with maintained security controls.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 15,
+    "topic": "Data Destruction",
+    "description": "Securely disposing of data to prevent unauthorized recovery.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 16,
+    "topic": "Data Retention Policy",
+    "description": "Rules defining how long data is stored and when it is destroyed.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 17,
+    "topic": "Data Minimization",
+    "description": "Collecting only the data necessary for a specific purpose.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 18,
+    "topic": "Data Sovereignty",
+    "description": "Data is subject to the laws of the country where it is stored.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 19,
+    "topic": "Personally Identifiable Information (PII)",
+    "description": "Data that can identify an individual, e.g., name, SSN, email.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 20,
+    "topic": "Protected Health Information (PHI)",
+    "description": "Health-related data protected under laws like HIPAA.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 21,
+    "topic": "Sensitive Data",
+    "description": "Data requiring protection due to its confidentiality or impact if disclosed.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 22,
+    "topic": "Data Privacy",
+    "description": "Protecting personal data in accordance with laws and regulations.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 23,
+    "topic": "GDPR",
+    "description": "General Data Protection Regulation, EU law for data privacy and protection.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 24,
+    "topic": "HIPAA",
+    "description": "Health Insurance Portability and Accountability Act, US law for health data.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 25,
+    "topic": "CCPA",
+    "description": "California Consumer Privacy Act, enhances privacy rights for California residents.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 26,
+    "topic": "Data Breach",
+    "description": "Unauthorized access or disclosure of sensitive data.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 27,
+    "topic": "Data Loss Prevention (DLP)",
+    "description": "Tools and processes to prevent unauthorized data exfiltration.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 28,
+    "topic": "Encryption",
+    "description": "Converting data into a secure format to prevent unauthorized access.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 29,
+    "topic": "Data at Rest",
+    "description": "Data stored on a device or media, protected by encryption or access controls.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 30,
+    "topic": "Data in Transit",
+    "description": "Data being transferred, protected by protocols like TLS or VPN.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 31,
+    "topic": "Data in Use",
+    "description": "Data actively being processed, protected by secure memory management.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 32,
+    "topic": "Access Controls",
+    "description": "Mechanisms to restrict data access to authorized users only.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 33,
+    "topic": "Role-Based Access Control (RBAC)",
+    "description": "Access granted based on user roles within the organization.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 34,
+    "topic": "Mandatory Access Control (MAC)",
+    "description": "Access based on security labels and strict policies.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 35,
+    "topic": "Discretionary Access Control (DAC)",
+    "description": "Access controlled by the data owner’s discretion.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 36,
+    "topic": "Attribute-Based Access Control (ABAC)",
+    "description": "Access based on attributes of user, resource, or environment.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 37,
+    "topic": "Need-to-Know",
+    "description": "Access limited to information required for job functions.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 38,
+    "topic": "Least Privilege",
+    "description": "Granting minimum access necessary for tasks.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 39,
+    "topic": "Data Handling Requirements",
+    "description": "Rules for processing, storing, and sharing data based on classification.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 40,
+    "topic": "Data Remanence",
+    "description": "Residual data left on media after deletion, requiring secure wiping.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 41,
+    "topic": "Secure Data Destruction",
+    "description": "Methods like shredding, degaussing, or overwriting to prevent data recovery.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 42,
+    "topic": "Degaussing",
+    "description": "Using magnetic fields to erase data on magnetic media.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 43,
+    "topic": "Overwriting",
+    "description": "Writing random data over existing data to prevent recovery.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 44,
+    "topic": "Physical Destruction",
+    "description": "Physically destroying media, e.g., shredding hard drives.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 45,
+    "topic": "Cryptographic Erasure",
+    "description": "Deleting encryption keys to render encrypted data unreadable.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 46,
+    "topic": "Data Sanitization",
+    "description": "Process to remove sensitive data from media before reuse or disposal.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 47,
+    "topic": "Media Sanitization",
+    "description": "Ensuring no residual data remains on storage devices.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 48,
+    "topic": "NIST SP 800-88",
+    "description": "Guidelines for media sanitization and data destruction.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 49,
+    "topic": "Data Inventory",
+    "description": "Cataloging all data assets to ensure proper protection.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 50,
+    "topic": "Asset Inventory",
+    "description": "Tracking all organizational assets, including hardware and software.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 51,
+    "topic": "Data Ownership",
+    "description": "Assigning responsibility for data protection to specific individuals.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 52,
+    "topic": "Data Custody",
+    "description": "Managing the technical aspects of data storage and protection.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 53,
+    "topic": "Data Controller",
+    "description": "Entity determining the purpose and means of processing personal data.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 54,
+    "topic": "Data Processor",
+    "description": "Entity processing data on behalf of the data controller.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 55,
+    "topic": "Data Protection Officer (DPO)",
+    "description": "Role overseeing data protection strategy and compliance.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 56,
+    "topic": "Privacy Impact Assessment (PIA)",
+    "description": "Evaluating risks to privacy when processing personal data.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 57,
+    "topic": "Data Anonymization",
+    "description": "Removing identifiable information to protect privacy.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 58,
+    "topic": "Data Pseudonymization",
+    "description": "Replacing identifiable data with pseudonyms, reversible with a key.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 59,
+    "topic": "Tokenization",
+    "description": "Replacing sensitive data with non-sensitive tokens.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 60,
+    "topic": "Data Masking",
+    "description": "Obscuring specific data elements to protect confidentiality.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 61,
+    "topic": "Data Governance",
+    "description": "Policies and processes for managing data availability, usability, and security.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 62,
+    "topic": "Data Stewardship",
+    "description": "Responsibility for managing and ensuring data quality and security.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 63,
+    "topic": "Data Quality",
+    "description": "Ensuring data is accurate, complete, and reliable.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 64,
+    "topic": "Data Integrity",
+    "description": "Protecting data from unauthorized modification, e.g., via hashing.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 65,
+    "topic": "Data Availability",
+    "description": "Ensuring authorized users can access data when needed.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 66,
+    "topic": "Data Confidentiality",
+    "description": "Restricting data access to authorized individuals only.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 67,
+    "topic": "Non-Disclosure Agreement (NDA)",
+    "description": "Legal contract to protect confidential data from unauthorized sharing.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 68,
+    "topic": "Data Security Controls",
+    "description": "Technical and administrative measures to protect data, e.g., encryption, policies.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 69,
+    "topic": "Backup",
+    "description": "Copying data to ensure recovery in case of loss or corruption.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 70,
+    "topic": "Data Recovery",
+    "description": "Restoring data from backups after a loss or incident.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 71,
+    "topic": "Data Archival",
+    "description": "Storing data long-term with appropriate security controls.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 72,
+    "topic": "Data Classification Policy",
+    "description": "Guidelines for categorizing data based on sensitivity and value.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 73,
+    "topic": "Data Handling Policy",
+    "description": "Rules for processing, storing, and disposing of data.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 74,
+    "topic": "Data Sensitivity Levels",
+    "description": "Categories like Public, Internal, Confidential, and Restricted.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 75,
+    "topic": "Data Loss",
+    "description": "Unintentional or unauthorized loss of data, e.g., due to hardware failure.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 76,
+    "topic": "Data Exfiltration",
+    "description": "Unauthorized transfer of data out of an organization.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 77,
+    "topic": "Data Leakage",
+    "description": "Unintentional exposure of sensitive data, e.g., misconfigured systems.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 78,
+    "topic": "Data Protection",
+    "description": "Implementing controls to safeguard data confidentiality, integrity, and availability.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 79,
+    "topic": "Information Asset",
+    "description": "Data or knowledge that has value to the organization.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 80,
+    "topic": "Tangible Asset",
+    "description": "Physical assets like hardware or media requiring protection.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 81,
+    "topic": "Intangible Asset",
+    "description": "Non-physical assets like intellectual property or reputation.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 82,
+    "topic": "Asset Valuation",
+    "description": "Determining the monetary or operational value of assets.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 83,
+    "topic": "Data Security Policy",
+    "description": "High-level document outlining data protection requirements.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 84,
+    "topic": "Data Encryption Standard (DES)",
+    "description": "Symmetric encryption algorithm, now outdated due to short key length.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 85,
+    "topic": "Advanced Encryption Standard (AES)",
+    "description": "Symmetric encryption standard, widely used for data protection.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 86,
+    "topic": "Symmetric Encryption",
+    "description": "Uses the same key for encryption and decryption, e.g., AES.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 87,
+    "topic": "Asymmetric Encryption",
+    "description": "Uses public and private key pairs, e.g., RSA for secure data sharing.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 88,
+    "topic": "Hashing",
+    "description": "Creating a fixed-length value to ensure data integrity, e.g., SHA-256.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 89,
+    "topic": "Digital Signatures",
+    "description": "Using asymmetric encryption to verify authenticity and integrity.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 90,
+    "topic": "Key Management",
+    "description": "Securely generating, storing, and distributing encryption keys.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 91,
+    "topic": "Data Security Standards",
+    "description": "Frameworks like PCI DSS for protecting specific data types.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 92,
+    "topic": "PCI DSS",
+    "description": "Payment Card Industry Data Security Standard for protecting cardholder data.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 93,
+    "topic": "Data Audit",
+    "description": "Reviewing data handling processes to ensure compliance and security.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 94,
+    "topic": "Data Access Monitoring",
+    "description": "Tracking who accesses data and when to detect unauthorized activity.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 95,
+    "topic": "Data Segregation",
+    "description": "Separating data to limit access and reduce risk of exposure.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 96,
+    "topic": "Data Compartmentalization",
+    "description": "Isolating sensitive data into secure compartments.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 97,
+    "topic": "Data Rights Management (DRM)",
+    "description": "Controlling access and usage of digital content.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 98,
+    "topic": "Data Provenance",
+    "description": "Tracking the origin and history of data to ensure trustworthiness.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 99,
+    "topic": "Data Security Lifecycle",
+    "description": "Managing data security through all stages of its lifecycle.",
+    "reference": "CISSP CBK Domain 2"
+  },
+  {
+    "id": 100,
+    "topic": "Data Protection Impact Assessment (DPIA)",
+    "description": "Evaluating risks to data protection in new projects or processes.",
+    "reference": "CISSP CBK Domain 2"
+  }
+]

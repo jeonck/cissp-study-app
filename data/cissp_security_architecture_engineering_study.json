@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "topic": "Security Architecture",
+    "description": "Designing systems to meet security requirements and mitigate risks.",
+    "reference": "CISSP CBK Domain 3: Security Architecture and Engineering"
+  },
+  {
+    "id": 2,
+    "topic": "Security Engineering",
+    "description": "Applying engineering principles to build secure systems and processes.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 3,
+    "topic": "Security Models",
+    "description": "Frameworks defining how systems enforce security policies, e.g., Bell-LaPadula.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 4,
+    "topic": "Bell-LaPadula Model",
+    "description": "Confidentiality-focused model with 'no read up, no write down' rules.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 5,
+    "topic": "Biba Model",
+    "description": "Integrity-focused model with 'no read down, no write up' rules.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 6,
+    "topic": "Clark-Wilson Model",
+    "description": "Integrity model using well-formed transactions and separation of duties.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 7,
+    "topic": "Non-Interference Model",
+    "description": "Prevents actions in one security level from affecting another.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 8,
+    "topic": "Brewer-Nash Model",
+    "description": "Also called Chinese Wall, prevents conflicts of interest in access.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 9,
+    "topic": "Trusted Computing Base (TCB)",
+    "description": "Set of hardware, software, and firmware critical to system security.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 10,
+    "topic": "Reference Monitor",
+    "description": "Abstract mechanism enforcing access control policies in a system.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 11,
+    "topic": "Security Kernel",
+    "description": "Core of TCB that enforces security policies via the reference monitor.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 12,
+    "topic": "Trusted Platform Module (TPM)",
+    "description": "Hardware chip for secure storage of cryptographic keys and measurements.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 13,
+    "topic": "Secure Design Principles",
+    "description": "Guidelines like least privilege, defense-in-depth for secure systems.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 14,
+    "topic": "Least Privilege",
+    "description": "Granting only the minimum access necessary for tasks.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 15,
+    "topic": "Defense-in-Depth",
+    "description": "Using multiple layers of security controls to protect assets.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 16,
+    "topic": "Fail-Safe Defaults",
+    "description": "Systems default to a secure state if they fail or are misconfigured.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 17,
+    "topic": "Economy of Mechanism",
+    "description": "Keeping system designs simple to reduce vulnerabilities.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 18,
+    "topic": "Complete Mediation",
+    "description": "Checking every access request to ensure authorization.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 19,
+    "topic": "Open Design",
+    "description": "Security not relying on secrecy of design, e.g., Kerckhoffs’ principle.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 20,
+    "topic": "Separation of Privilege",
+    "description": "Requiring multiple conditions for access to critical resources.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 21,
+    "topic": "Least Common Mechanism",
+    "description": "Minimizing shared mechanisms to reduce risk of unauthorized access.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 22,
+    "topic": "Psychological Acceptability",
+    "description": "Ensuring security measures are user-friendly to encourage compliance.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 23,
+    "topic": "Cryptography",
+    "description": "Using mathematical techniques to secure data and communications.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 24,
+    "topic": "Symmetric Encryption",
+    "description": "Uses the same key for encryption and decryption, e.g., AES.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 25,
+    "topic": "Asymmetric Encryption",
+    "description": "Uses public and private key pairs, e.g., RSA for secure key exchange.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 26,
+    "topic": "Advanced Encryption Standard (AES)",
+    "description": "Symmetric encryption algorithm with 128, 192, or 256-bit keys.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 27,
+    "topic": "RSA",
+    "description": "Asymmetric encryption algorithm based on factoring large numbers.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 28,
+    "topic": "Hashing",
+    "description": "Creating a fixed-length value to ensure data integrity, e.g., SHA-256.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 29,
+    "topic": "Digital Signatures",
+    "description": "Using asymmetric encryption to verify authenticity and integrity.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 30,
+    "topic": "Public Key Infrastructure (PKI)",
+    "description": "Framework for managing digital certificates and encryption keys.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 31,
+    "topic": "Digital Certificate",
+    "description": "Electronic document binding a public key to an identity.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 32,
+    "topic": "Certificate Authority (CA)",
+    "description": "Trusted entity issuing and managing digital certificates.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 33,
+    "topic": "Key Management",
+    "description": "Securely generating, distributing, and storing cryptographic keys.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 34,
+    "topic": "Key Escrow",
+    "description": "Storing encryption keys with a third party for recovery purposes.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 35,
+    "topic": "Cryptographic Attacks",
+    "description": "Attempts to break encryption, e.g., brute force, chosen plaintext.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 36,
+    "topic": "Brute Force Attack",
+    "description": "Trying all possible keys to decrypt data.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 37,
+    "topic": "Side-Channel Attack",
+    "description": "Exploiting physical implementation details, e.g., power consumption.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 38,
+    "topic": "Zero Trust Architecture",
+    "description": "Security model assuming no implicit trust, verifying every request.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 39,
+    "topic": "Secure System Design",
+    "description": "Incorporating security into system architecture from the start.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 40,
+    "topic": "Trusted Path",
+    "description": "Secure channel for users to interact with the TCB.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 41,
+    "topic": "Security Evaluation Criteria",
+    "description": "Standards like Common Criteria for assessing system security.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 42,
+    "topic": "Common Criteria",
+    "description": "International standard for evaluating security of IT products.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 43,
+    "topic": "Evaluation Assurance Level (EAL)",
+    "description": "Common Criteria levels (EAL1-EAL7) indicating security assurance.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 44,
+    "topic": "TCSEC",
+    "description": "Trusted Computer System Evaluation Criteria, also known as Orange Book.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 45,
+    "topic": "ITSEC",
+    "description": "European standard for evaluating IT security products.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 46,
+    "topic": "System Hardening",
+    "description": "Reducing system vulnerabilities by disabling unnecessary services.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 47,
+    "topic": "Secure Boot",
+    "description": "Ensuring only trusted software loads during system startup.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 48,
+    "topic": "Trusted Execution Environment (TEE)",
+    "description": "Isolated environment for secure processing, e.g., Intel SGX.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 49,
+    "topic": "Virtualization Security",
+    "description": "Protecting virtualized environments from threats like VM escape.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 50,
+    "topic": "VM Escape",
+    "description": "Attack allowing a guest VM to access the host system.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 51,
+    "topic": "Hypervisor",
+    "description": "Software managing virtual machines, e.g., VMware, Hyper-V.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 52,
+    "topic": "Cloud Security",
+    "description": "Protecting cloud-based systems, data, and infrastructure.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 53,
+    "topic": "Shared Responsibility Model",
+    "description": "Division of security responsibilities between cloud provider and customer.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 54,
+    "topic": "Container Security",
+    "description": "Securing containerized applications, e.g., Docker, Kubernetes.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 55,
+    "topic": "Microservices Security",
+    "description": "Protecting distributed, modular application architectures.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 56,
+    "topic": "Secure Software Development",
+    "description": "Incorporating security into the software development lifecycle.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 57,
+    "topic": "Threat Modeling",
+    "description": "Identifying and prioritizing potential threats to a system.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 58,
+    "topic": "STRIDE Model",
+    "description": "Threat modeling framework: Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 59,
+    "topic": "Attack Surface",
+    "description": "All possible points where an attacker can attempt to exploit a system.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 60,
+    "topic": "Security Controls",
+    "description": "Technical, administrative, or physical measures to protect systems.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 61,
+    "topic": "Physical Security",
+    "description": "Protecting physical assets like servers, buildings, and data centers.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 62,
+    "topic": "Layered Security",
+    "description": "Using multiple controls at different levels, e.g., perimeter, network, host.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 63,
+    "topic": "Access Control",
+    "description": "Restricting access to systems and data to authorized users only.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 64,
+    "topic": "Mandatory Access Control (MAC)",
+    "description": "Access based on security labels and strict policies.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 65,
+    "topic": "Discretionary Access Control (DAC)",
+    "description": "Access controlled by the resource owner’s discretion.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 66,
+    "topic": "Role-Based Access Control (RBAC)",
+    "description": "Access granted based on user roles within the organization.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 67,
+    "topic": "Attribute-Based Access Control (ABAC)",
+    "description": "Access based on attributes of user, resource, or environment.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 68,
+    "topic": "Firewalls",
+    "description": "Network security devices filtering traffic based on rules.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 69,
+    "topic": "Intrusion Detection System (IDS)",
+    "description": "Monitors network or system for suspicious activity.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 70,
+    "topic": "Intrusion Prevention System (IPS)",
+    "description": "Actively blocks detected threats in addition to monitoring.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 71,
+    "topic": "Endpoint Security",
+    "description": "Protecting devices like laptops and mobiles from threats.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 72,
+    "topic": "Application Security",
+    "description": "Protecting software applications from vulnerabilities and attacks.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 73,
+    "topic": "Secure Coding",
+    "description": "Writing software to minimize vulnerabilities, e.g., input validation.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 74,
+    "topic": "Sandboxing",
+    "description": "Isolating applications to prevent malicious code execution.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 75,
+    "topic": "Memory Protection",
+    "description": "Techniques like ASLR to prevent exploits targeting memory.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 76,
+    "topic": "Address Space Layout Randomization (ASLR)",
+    "description": "Randomizing memory addresses to hinder exploits.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 77,
+    "topic": "Data Execution Prevention (DEP)",
+    "description": "Preventing execution of code in non-executable memory regions.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 78,
+    "topic": "System Accreditation",
+    "description": "Formal approval that a system meets security requirements.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 79,
+    "topic": "System Certification",
+    "description": "Process of evaluating a system’s security controls.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 80,
+    "topic": "Risk Assessment",
+    "description": "Evaluating risks to systems to prioritize security measures.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 81,
+    "topic": "Vulnerability Assessment",
+    "description": "Identifying and prioritizing weaknesses in systems.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 82,
+    "topic": "Penetration Testing",
+    "description": "Simulating attacks to test system defenses.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 83,
+    "topic": "Physical Security Controls",
+    "description": "Measures like locks, guards, and cameras to protect facilities.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 84,
+    "topic": "Environmental Security",
+    "description": "Protecting systems from environmental threats like fire or floods.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 85,
+    "topic": "Fire Suppression Systems",
+    "description": "Systems like sprinklers or gas-based suppression for data centers.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 86,
+    "topic": "HVAC Security",
+    "description": "Ensuring heating, ventilation, and cooling systems support secure operations.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 87,
+    "topic": "Power Protection",
+    "description": "Using UPS and generators to ensure system availability.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 88,
+    "topic": "Uninterruptible Power Supply (UPS)",
+    "description": "Provides backup power during outages to maintain operations.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 89,
+    "topic": "Perimeter Security",
+    "description": "Controls like fences and gates to secure physical boundaries.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 90,
+    "topic": "Biometric Systems",
+    "description": "Using physical traits like fingerprints for access control.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 91,
+    "topic": "False Acceptance Rate (FAR)",
+    "description": "Rate at which unauthorized users are incorrectly granted access.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 92,
+    "topic": "False Rejection Rate (FRR)",
+    "description": "Rate at which authorized users are incorrectly denied access.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 93,
+    "topic": "Crossover Error Rate (CER)",
+    "description": "Point where FAR and FRR are equal in biometric systems.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 94,
+    "topic": "Security Configuration Management",
+    "description": "Maintaining secure system configurations to reduce vulnerabilities.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 95,
+    "topic": "Patch Management",
+    "description": "Applying updates to fix vulnerabilities in systems and software.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 96,
+    "topic": "Baseline Security",
+    "description": "Minimum security requirements for systems and applications.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 97,
+    "topic": "Secure Development Lifecycle",
+    "description": "Integrating security into all phases of software development.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 98,
+    "topic": "Code Review",
+    "description": "Examining source code to identify security vulnerabilities.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 99,
+    "topic": "Security Testing",
+    "description": "Evaluating systems for vulnerabilities and compliance with security policies.",
+    "reference": "CISSP CBK Domain 3"
+  },
+  {
+    "id": 100,
+    "topic": "Security Architecture Frameworks",
+    "description": "Models like TOGAF or SABSA for designing secure systems.",
+    "reference": "CISSP CBK Domain 3"
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "topic": "Communication and Network Security",
+    "description": "Designing and protecting network infrastructure and communication channels.",
+    "reference": "CISSP CBK Domain 4: Communication and Network Security"
+  },
+  {
+    "id": 2,
+    "topic": "Network Architecture",
+    "description": "Structure and design of networks to ensure security and performance.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 3,
+    "topic": "OSI Model",
+    "description": "Seven-layer model for network communication: Physical, Data Link, Network, Transport, Session, Presentation, Application.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 4,
+    "topic": "Physical Layer",
+    "description": "OSI Layer 1: Handles physical connections and transmission of raw bits.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 5,
+    "topic": "Data Link Layer",
+    "description": "OSI Layer 2: Manages node-to-node data transfer and error detection.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 6,
+    "topic": "Network Layer",
+    "description": "OSI Layer 3: Handles routing and forwarding of packets, e.g., IP.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 7,
+    "topic": "Transport Layer",
+    "description": "OSI Layer 4: Ensures reliable data transfer, e.g., TCP, UDP.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 8,
+    "topic": "Session Layer",
+    "description": "OSI Layer 5: Manages sessions between applications.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 9,
+    "topic": "Presentation Layer",
+    "description": "OSI Layer 6: Handles data formatting, encryption, and compression.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 10,
+    "topic": "Application Layer",
+    "description": "OSI Layer 7: Provides network services directly to applications, e.g., HTTP.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 11,
+    "topic": "TCP/IP Model",
+    "description": "Four-layer model: Link, Internet, Transport, Application.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 12,
+    "topic": "Internet Protocol (IP)",
+    "description": "Network layer protocol for addressing and routing packets.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 13,
+    "topic": "IPv4",
+    "description": "32-bit IP addressing scheme, e.g., 192.168.1.1.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 14,
+    "topic": "IPv6",
+    "description": "128-bit IP addressing scheme, supports larger address space.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 15,
+    "topic": "Transmission Control Protocol (TCP)",
+    "description": "Reliable, connection-oriented transport protocol.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 16,
+    "topic": "User Datagram Protocol (UDP)",
+    "description": "Connectionless, faster transport protocol with no error checking.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 17,
+    "topic": "Hypertext Transfer Protocol (HTTP)",
+    "description": "Application layer protocol for web communication, port 80.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 18,
+    "topic": "HTTPS",
+    "description": "Secure HTTP using TLS/SSL, port 443.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 19,
+    "topic": "Transport Layer Security (TLS)",
+    "description": "Protocol for secure communication, successor to SSL.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 20,
+    "topic": "Secure Sockets Layer (SSL)",
+    "description": "Older protocol for securing communication, largely replaced by TLS.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 21,
+    "topic": "Internet Control Message Protocol (ICMP)",
+    "description": "Used for diagnostics and error messaging, e.g., ping.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 22,
+    "topic": "Address Resolution Protocol (ARP)",
+    "description": "Maps IP addresses to MAC addresses at the data link layer.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 23,
+    "topic": "Dynamic Host Configuration Protocol (DHCP)",
+    "description": "Automatically assigns IP addresses to devices on a network.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 24,
+    "topic": "Domain Name System (DNS)",
+    "description": "Translates domain names to IP addresses, port 53.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 25,
+    "topic": "DNSSEC",
+    "description": "DNS Security Extensions, adds authentication to DNS responses.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 26,
+    "topic": "File Transfer Protocol (FTP)",
+    "description": "Protocol for transferring files, ports 20 and 21, insecure.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 27,
+    "topic": "Secure File Transfer Protocol (SFTP)",
+    "description": "Secure file transfer using SSH, port 22.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 28,
+    "topic": "Secure Shell (SSH)",
+    "description": "Protocol for secure remote access and file transfer, port 22.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 29,
+    "topic": "Simple Mail Transfer Protocol (SMTP)",
+    "description": "Protocol for sending emails, port 25.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 30,
+    "topic": "Post Office Protocol (POP3)",
+    "description": "Protocol for retrieving emails, port 110, or 995 for secure.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 31,
+    "topic": "Internet Message Access Protocol (IMAP)",
+    "description": "Protocol for accessing emails on a server, port 143, or 993 for secure.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 32,
+    "topic": "Firewalls",
+    "description": "Devices filtering network traffic based on predefined rules.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 33,
+    "topic": "Packet-Filtering Firewall",
+    "description": "Filters traffic based on IP, port, and protocol at the network layer.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 34,
+    "topic": "Stateful Inspection Firewall",
+    "description": "Tracks connection states to allow or block packets.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 35,
+    "topic": "Application Layer Firewall",
+    "description": "Inspects application-level data to filter traffic, e.g., proxies.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 36,
+    "topic": "Next-Generation Firewall (NGFW)",
+    "description": "Combines traditional firewall with IDS/IPS and application awareness.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 37,
+    "topic": "Intrusion Detection System (IDS)",
+    "description": "Monitors network or system for suspicious activity.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 38,
+    "topic": "Intrusion Prevention System (IPS)",
+    "description": "Actively blocks detected threats in addition to monitoring.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 39,
+    "topic": "Network Address Translation (NAT)",
+    "description": "Maps private IP addresses to public ones to conserve IP space.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 40,
+    "topic": "Virtual Private Network (VPN)",
+    "description": "Securely connects remote users or sites over the internet.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 41,
+    "topic": "IPsec",
+    "description": "Protocol suite for securing IP communications with encryption and authentication.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 42,
+    "topic": "Authentication Header (AH)",
+    "description": "IPsec mode providing authentication and integrity, no encryption.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 43,
+    "topic": "Encapsulating Security Payload (ESP)",
+    "description": "IPsec mode providing encryption, authentication, and integrity.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 44,
+    "topic": "Tunnel Mode",
+    "description": "IPsec mode encrypting entire IP packet for site-to-site VPNs.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 45,
+    "topic": "Transport Mode",
+    "description": "IPsec mode encrypting only the payload for host-to-host communication.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 46,
+    "topic": "Secure Access Service Edge (SASE)",
+    "description": "Cloud-based model combining network security and wide-area networking.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 47,
+    "topic": "Software-Defined Networking (SDN)",
+    "description": "Centralized network management separating control and data planes.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 48,
+    "topic": "Network Segmentation",
+    "description": "Dividing networks into smaller zones to limit attack spread.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 49,
+    "topic": "Virtual Local Area Network (VLAN)",
+    "description": "Logical network segmentation within a physical network.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 50,
+    "topic": "Demilitarized Zone (DMZ)",
+    "description": "Isolated network segment for public-facing services, e.g., web servers.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 51,
+    "topic": "Network Access Control (NAC)",
+    "description": "Controls which devices can connect to a network based on policies.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 52,
+    "topic": "802.1X",
+    "description": "Standard for port-based network access control, e.g., for Wi-Fi authentication.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 53,
+    "topic": "Wi-Fi Protected Access (WPA3)",
+    "description": "Latest Wi-Fi security protocol, improving encryption and authentication.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 54,
+    "topic": "Wireless Security",
+    "description": "Protecting wireless networks from unauthorized access and attacks.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 55,
+    "topic": "Rogue Access Point",
+    "description": "Unauthorized wireless access point posing a security risk.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 56,
+    "topic": "Evil Twin Attack",
+    "description": "Malicious Wi-Fi access point mimicking a legitimate one.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 57,
+    "topic": "Denial of Service (DoS)",
+    "description": "Attack overwhelming a network or system to disrupt availability.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 58,
+    "topic": "Distributed Denial of Service (DDoS)",
+    "description": "DoS attack from multiple sources, e.g., botnets.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 59,
+    "topic": "Man-in-the-Middle (MitM) Attack",
+    "description": "Interceptor eavesdrops or alters communication between parties.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 60,
+    "topic": "ARP Poisoning",
+    "description": "Attack manipulating ARP tables to redirect network traffic.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 61,
+    "topic": "DNS Spoofing",
+    "description": "Attack providing false DNS responses to redirect traffic.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 62,
+    "topic": "Packet Sniffing",
+    "description": "Capturing network packets to analyze or steal data.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 63,
+    "topic": "Network Intrusion Detection System (NIDS)",
+    "description": "Monitors network traffic for suspicious activity.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 64,
+    "topic": "Network Intrusion Prevention System (NIPS)",
+    "description": "Actively blocks network threats based on detected patterns.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 65,
+    "topic": "Honeypot",
+    "description": "Decoy system to attract and analyze attacker behavior.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 66,
+    "topic": "Proxy Server",
+    "description": "Intermediary server filtering or caching network traffic.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 67,
+    "topic": "Reverse Proxy",
+    "description": "Proxy handling incoming traffic to internal servers, e.g., load balancing.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 68,
+    "topic": "Load Balancer",
+    "description": "Distributes network traffic across multiple servers for performance and reliability.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 69,
+    "topic": "Virtual Private Cloud (VPC)",
+    "description": "Isolated cloud network within a public cloud provider.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 70,
+    "topic": "Cloud Access Security Broker (CASB)",
+    "description": "Security tool enforcing policies between users and cloud services.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 71,
+    "topic": "Software-Defined Wide Area Network (SD-WAN)",
+    "description": "Simplifies management of WAN with centralized control.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 72,
+    "topic": "Zero Trust Network",
+    "description": "Security model requiring verification for every network access request.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 73,
+    "topic": "Network Hardening",
+    "description": "Reducing vulnerabilities by disabling unnecessary services and ports.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 74,
+    "topic": "Port Security",
+    "description": "Restricting access to network ports to authorized devices.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 75,
+    "topic": "MAC Filtering",
+    "description": "Allowing or denying network access based on device MAC addresses.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 76,
+    "topic": "Network Monitoring",
+    "description": "Observing network traffic for performance and security issues.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 77,
+    "topic": "Packet Analysis",
+    "description": "Examining network packets to detect anomalies or attacks.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 78,
+    "topic": "Traffic Shaping",
+    "description": "Controlling network traffic to optimize performance or security.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 79,
+    "topic": "Quality of Service (QoS)",
+    "description": "Managing network traffic to prioritize critical services.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 80,
+    "topic": "Network Segmentation",
+    "description": "Dividing networks to limit attack spread and enhance security.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 81,
+    "topic": "Microsegmentation",
+    "description": "Granular network segmentation, often used in zero trust architectures.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 82,
+    "topic": "Subnetting",
+    "description": "Dividing a network into smaller subnetworks for efficiency and security.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 83,
+    "topic": "Border Gateway Protocol (BGP)",
+    "description": "Routing protocol for exchanging routing information between networks.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 84,
+    "topic": "BGP Hijacking",
+    "description": "Attack redirecting traffic by manipulating BGP routes.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 85,
+    "topic": "Secure Network Design",
+    "description": "Architecting networks with security controls like segmentation and encryption.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 86,
+    "topic": "Defense-in-Depth",
+    "description": "Using multiple layers of security controls to protect networks.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 87,
+    "topic": "Network Management",
+    "description": "Administering and securing network infrastructure and devices.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 88,
+    "topic": "Simple Network Management Protocol (SNMP)",
+    "description": "Protocol for monitoring and managing network devices, ports 161/162.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 89,
+    "topic": "SNMPv3",
+    "description": "Secure version of SNMP with authentication and encryption.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 90,
+    "topic": "Network Penetration Testing",
+    "description": "Simulating attacks to identify network vulnerabilities.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 91,
+    "topic": "Vulnerability Scanning",
+    "description": "Automated scanning to identify network and system weaknesses.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 92,
+    "topic": "War Driving",
+    "description": "Searching for unsecured wireless networks while moving, e.g., by car.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 93,
+    "topic": "Packet Injection",
+    "description": "Inserting malicious packets into a network to disrupt or manipulate traffic.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 94,
+    "topic": "Session Hijacking",
+    "description": "Stealing an active session to gain unauthorized access.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 95,
+    "topic": "Network Encryption",
+    "description": "Protecting data in transit using protocols like TLS or IPsec.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 96,
+    "topic": "End-to-End Encryption",
+    "description": "Encrypting data from sender to receiver, accessible only to endpoints.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 97,
+    "topic": "Link Encryption",
+    "description": "Encrypting data at each network hop, including headers.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 98,
+    "topic": "Network Security Policy",
+    "description": "Guidelines for securing network infrastructure and traffic.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 99,
+    "topic": "Network Access Policy",
+    "description": "Rules defining who can access network resources and how.",
+    "reference": "CISSP CBK Domain 4"
+  },
+  {
+    "id": 100,
+    "topic": "Network Security Monitoring",
+    "description": "Continuous observation of network for threats and anomalies.",
+    "reference": "CISSP CBK Domain 4"
+  }
+]

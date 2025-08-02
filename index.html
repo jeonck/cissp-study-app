@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CISSP Study App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1><i class="fas fa-shield-alt"></i> CISSP Study App</h1>
+                <div class="header-stats">
+                    <span class="stat">
+                        <i class="fas fa-book"></i>
+                        총 문항: <span id="totalQuestions">0</span>
+                    </span>
+                    <span class="stat">
+                        <i class="fas fa-check-circle"></i>
+                        학습 완료: <span id="studiedCount">0</span>
+                    </span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="nav-tabs">
+            <button class="nav-tab active" data-mode="study">
+                <i class="fas fa-graduation-cap"></i> 학습모드
+            </button>
+            <button class="nav-tab" data-mode="quiz">
+                <i class="fas fa-question-circle"></i> 퀴즈모드
+            </button>
+            <button class="nav-tab" data-mode="review">
+                <i class="fas fa-history"></i> 복습
+            </button>
+        </nav>
+
+        <!-- Controls -->
+        <div class="controls">
+            <div class="domain-filter">
+                <label for="domainSelect">도메인 선택:</label>
+                <select id="domainSelect">
+                    <option value="all">모든 도메인</option>
+                </select>
+            </div>
+            
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" id="searchInput" placeholder="키워드 검색...">
+            </div>
+
+            <div class="action-buttons">
+                <button id="randomBtn" class="btn btn-primary">
+                    <i class="fas fa-random"></i> 랜덤 학습
+                </button>
+                <button id="resetBtn" class="btn btn-secondary">
+                    <i class="fas fa-refresh"></i> 초기화
+                </button>
+            </div>
+        </div>
+
+        <!-- Study Mode -->
+        <div id="studyMode" class="mode-container active">
+            <div class="study-card">
+                <div class="card-header">
+                    <span class="domain-tag" id="currentDomain"></span>
+                    <span class="card-counter">
+                        <span id="currentIndex">1</span> / <span id="totalCards">1</span>
+                    </span>
+                </div>
+                <div class="card-content">
+                    <h3 class="topic" id="studyTopic">주제를 선택하세요</h3>
+                    <p class="description" id="studyDescription">설명이 여기에 표시됩니다.</p>
+                    <p class="reference" id="studyReference">참고자료</p>
+                </div>
+                <div class="card-actions">
+                    <button id="prevBtn" class="btn btn-outline">
+                        <i class="fas fa-arrow-left"></i> 이전
+                    </button>
+                    <button id="markStudiedBtn" class="btn btn-success">
+                        <i class="fas fa-check"></i> 학습완료
+                    </button>
+                    <button id="nextBtn" class="btn btn-outline">
+                        다음 <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quiz Mode -->
+        <div id="quizMode" class="mode-container">
+            <div class="quiz-container">
+                <div class="quiz-header">
+                    <div class="quiz-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="quizProgress"></div>
+                        </div>
+                        <span class="progress-text">
+                            문제 <span id="quizCurrentIndex">1</span> / <span id="quizTotalQuestions">10</span>
+                        </span>
+                    </div>
+                    <div class="quiz-score">
+                        정답률: <span id="quizScore">0%</span>
+                    </div>
+                </div>
+
+                <div class="quiz-card">
+                    <h3 class="quiz-question" id="quizQuestion">퀴즈 문제가 여기에 표시됩니다.</h3>
+                    <div class="quiz-options" id="quizOptions">
+                        <!-- 선택지들이 동적으로 생성됩니다 -->
+                    </div>
+                    <div class="quiz-explanation" id="quizExplanation" style="display: none;">
+                        <h4>설명:</h4>
+                        <p id="explanationText"></p>
+                    </div>
+                </div>
+
+                <div class="quiz-actions">
+                    <button id="startQuizBtn" class="btn btn-primary">
+                        <i class="fas fa-play"></i> 퀴즈 시작
+                    </button>
+                    <button id="submitAnswerBtn" class="btn btn-success" style="display: none;">
+                        <i class="fas fa-check"></i> 답안 제출
+                    </button>
+                    <button id="nextQuestionBtn" class="btn btn-outline" style="display: none;">
+                        다음 문제 <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <button id="finishQuizBtn" class="btn btn-primary" style="display: none;">
+                        <i class="fas fa-flag-checkered"></i> 퀴즈 완료
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Review Mode -->
+        <div id="reviewMode" class="mode-container">
+            <div class="review-container">
+                <h2>복습 모드</h2>
+                <p>학습 완료한 항목들을 복습하세요.</p>
+                <div class="review-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-book-open"></i>
+                        <div>
+                            <h3 id="reviewTotal">0</h3>
+                            <p>총 학습 항목</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <h3 id="reviewCompleted">0</h3>
+                            <p>학습 완료</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-percentage"></i>
+                        <div>
+                            <h3 id="reviewPercentage">0%</h3>
+                            <p>진행률</p>
+                        </div>
+                    </div>
+                </div>
+                <button id="reviewStudiedBtn" class="btn btn-primary">
+                    <i class="fas fa-replay"></i> 학습완료 항목 복습
+                </button>
+            </div>
+        </div>
+
+        <!-- Loading Spinner -->
+        <div id="loadingSpinner" class="loading-spinner">
+            <i class="fas fa-spinner fa-spin"></i>
+            <p>데이터를 로딩중입니다...</p>
+        </div>
+
+        <!-- Toast Notifications -->
+        <div id="toastContainer" class="toast-container"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

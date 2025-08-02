@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "topic": "Security Assessment and Testing",
+    "description": "Designing and performing assessments to validate security controls.",
+    "reference": "CISSP CBK Domain 6: Security Assessment and Testing"
+  },
+  {
+    "id": 2,
+    "topic": "Security Assessment",
+    "description": "Evaluating security controls to ensure they meet requirements.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 3,
+    "topic": "Vulnerability Assessment",
+    "description": "Identifying and prioritizing weaknesses in systems or networks.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 4,
+    "topic": "Penetration Testing",
+    "description": "Simulating attacks to test system defenses and identify vulnerabilities.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 5,
+    "topic": "Security Audit",
+    "description": "Independent review of security controls for compliance and effectiveness.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 6,
+    "topic": "Risk Assessment",
+    "description": "Evaluating risks to prioritize mitigation and control implementation.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 7,
+    "topic": "Qualitative Risk Analysis",
+    "description": "Subjective assessment of risk using scales like high, medium, low.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 8,
+    "topic": "Quantitative Risk Analysis",
+    "description": "Numerical assessment of risk, e.g., calculating Annual Loss Expectancy.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 9,
+    "topic": "Annual Loss Expectancy (ALE)",
+    "description": "ALE = Single Loss Expectancy (SLE) x Annualized Rate of Occurrence (ARO).",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 10,
+    "topic": "Single Loss Expectancy (SLE)",
+    "description": "Monetary value of a single loss event: SLE = Asset Value x Exposure Factor.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 11,
+    "topic": "Exposure Factor (EF)",
+    "description": "Percentage of asset value lost due to a specific threat.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 12,
+    "topic": "Vulnerability Scanning",
+    "description": "Automated process to identify system or network weaknesses.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 13,
+    "topic": "Penetration Testing Types",
+    "description": "Black box (no prior knowledge), white box (full knowledge), gray box (partial knowledge).",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 14,
+    "topic": "Black Box Testing",
+    "description": "Penetration testing with no prior knowledge of the system.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 15,
+    "topic": "White Box Testing",
+    "description": "Penetration testing with full knowledge of system architecture and code.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 16,
+    "topic": "Gray Box Testing",
+    "description": "Penetration testing with partial knowledge of the system.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 17,
+    "topic": "Internal Penetration Testing",
+    "description": "Testing conducted from within the organization’s network.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 18,
+    "topic": "External Penetration Testing",
+    "description": "Testing conducted from outside the organization’s network.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 19,
+    "topic": "Red Team",
+    "description": "Group simulating real-world attacks to test defenses.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 20,
+    "topic": "Blue Team",
+    "description": "Group defending against attacks and responding to incidents.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 21,
+    "topic": "Purple Team",
+    "description": "Collaboration between red and blue teams to improve security.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 22,
+    "topic": "Security Testing",
+    "description": "Evaluating systems to ensure compliance with security policies.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 23,
+    "topic": "Code Review",
+    "description": "Examining source code to identify security vulnerabilities.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 24,
+    "topic": "Static Application Security Testing (SAST)",
+    "description": "Analyzing source code for vulnerabilities without execution.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 25,
+    "topic": "Dynamic Application Security Testing (DAST)",
+    "description": "Testing running applications for vulnerabilities, e.g., via web scanning.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 26,
+    "topic": "Interactive Application Security Testing (IAST)",
+    "description": "Combines SAST and DAST, analyzing code during runtime.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 27,
+    "topic": "Fuzz Testing",
+    "description": "Inputting invalid or random data to find application vulnerabilities.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 28,
+    "topic": "Security Control Testing",
+    "description": "Verifying the effectiveness of security controls like firewalls or IDS.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 29,
+    "topic": "Compliance Testing",
+    "description": "Ensuring systems meet regulatory and policy requirements.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 30,
+    "topic": "Security Audit Types",
+    "description": "Internal, external, or third-party audits to assess security posture.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 31,
+    "topic": "Internal Audit",
+    "description": "Audit conducted by the organization’s own staff.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 32,
+    "topic": "External Audit",
+    "description": "Audit conducted by independent third parties.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 33,
+    "topic": "Audit Trail",
+    "description": "Chronological record of system activities for accountability.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 34,
+    "topic": "Log Analysis",
+    "description": "Reviewing logs to detect security incidents or anomalies.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 35,
+    "topic": "Security Information and Event Management (SIEM)",
+    "description": "Tool for real-time log analysis and incident detection.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 36,
+    "topic": "Synthetic Transactions",
+    "description": "Simulated user activities to test system performance and security.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 37,
+    "topic": "Misuse Case Testing",
+    "description": "Testing how systems handle unauthorized or malicious actions.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 38,
+    "topic": "Use Case Testing",
+    "description": "Testing system functionality under normal, authorized conditions.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 39,
+    "topic": "Test Coverage",
+    "description": "Extent to which security tests evaluate all system components.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 40,
+    "topic": "Test Strategy",
+    "description": "Plan defining scope, objectives, and methods for security testing.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 41,
+    "topic": "Test Plan",
+    "description": "Detailed document outlining testing procedures and resources.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 42,
+    "topic": "Test Scope",
+    "description": "Boundaries and components included in a security test.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 43,
+    "topic": "Rules of Engagement (RoE)",
+    "description": "Guidelines for conducting penetration tests, e.g., scope and limits.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 44,
+    "topic": "Threat Modeling",
+    "description": "Identifying and prioritizing potential threats to a system.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 45,
+    "topic": "STRIDE Model",
+    "description": "Threat modeling framework: Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 46,
+    "topic": "PASTA",
+    "description": "Process for Attack Simulation and Threat Analysis, a risk-based threat model.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 47,
+    "topic": "Attack Surface Analysis",
+    "description": "Identifying all possible points where an attacker could exploit a system.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 48,
+    "topic": "Vulnerability Management",
+    "description": "Process of identifying, prioritizing, and remediating vulnerabilities.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 49,
+    "topic": "Common Vulnerabilities and Exposures (CVE)",
+    "description": "Standardized identifiers for known vulnerabilities.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 50,
+    "topic": "Common Vulnerability Scoring System (CVSS)",
+    "description": "Framework for rating the severity of vulnerabilities.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 51,
+    "topic": "Exploitability",
+    "description": "Likelihood that a vulnerability can be exploited by an attacker.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 52,
+    "topic": "Remediation",
+    "description": "Actions to mitigate or eliminate vulnerabilities, e.g., patching.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 53,
+    "topic": "Patch Management",
+    "description": "Applying updates to fix vulnerabilities in systems or software.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 54,
+    "topic": "Configuration Management",
+    "description": "Maintaining secure system configurations to reduce vulnerabilities.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 55,
+    "topic": "Security Baseline",
+    "description": "Minimum security requirements for systems and applications.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 56,
+    "topic": "Hardening",
+    "description": "Reducing system vulnerabilities by disabling unnecessary services.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 57,
+    "topic": "Security Metrics",
+    "description": "Quantifiable measures to evaluate security effectiveness.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 58,
+    "topic": "Key Performance Indicator (KPI)",
+    "description": "Metric to measure the effectiveness of security controls.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 59,
+    "topic": "Key Risk Indicator (KRI)",
+    "description": "Metric signaling increasing risk exposure.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 60,
+    "topic": "Audit Scope",
+    "description": "Boundaries and objectives of a security audit.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 61,
+    "topic": "Audit Plan",
+    "description": "Document outlining audit objectives, scope, and procedures.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 62,
+    "topic": "Audit Evidence",
+    "description": "Data collected to support audit findings and conclusions.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 63,
+    "topic": "Audit Report",
+    "description": "Document summarizing audit findings, risks, and recommendations.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 64,
+    "topic": "Gap Analysis",
+    "description": "Comparing current security state to desired or required state.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 65,
+    "topic": "Control Testing",
+    "description": "Evaluating the design and operating effectiveness of security controls.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 66,
+    "topic": "Compliance Audit",
+    "description": "Verifying adherence to laws, regulations, or standards.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 67,
+    "topic": "Operational Audit",
+    "description": "Assessing the efficiency and effectiveness of security operations.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 68,
+    "topic": "Penetration Testing Phases",
+    "description": "Planning, Discovery, Attack, Reporting.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 69,
+    "topic": "Social Engineering Testing",
+    "description": "Simulating attacks like phishing to test user awareness.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 70,
+    "topic": "Phishing Simulation",
+    "description": "Testing user response to fake phishing emails.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 71,
+    "topic": "Physical Security Testing",
+    "description": "Assessing physical controls like locks and access badges.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 72,
+    "topic": "Network Security Testing",
+    "description": "Evaluating network defenses against attacks like packet sniffing.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 73,
+    "topic": "Application Security Testing",
+    "description": "Testing software for vulnerabilities like SQL injection.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 74,
+    "topic": "SQL Injection",
+    "description": "Attack injecting malicious SQL code to manipulate databases.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 75,
+    "topic": "Cross-Site Scripting (XSS)",
+    "description": "Attack injecting malicious scripts into web applications.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 76,
+    "topic": "Cross-Site Request Forgery (CSRF)",
+    "description": "Attack tricking users into performing unwanted actions.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 77,
+    "topic": "Security Testing Tools",
+    "description": "Tools like Nessus, Burp Suite, or Metasploit for assessments.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 78,
+    "topic": "Nessus",
+    "description": "Vulnerability scanning tool for identifying system weaknesses.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 79,
+    "topic": "Burp Suite",
+    "description": "Tool for web application security testing and penetration.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 80,
+    "topic": "Metasploit",
+    "description": "Penetration testing framework for exploiting vulnerabilities.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 81,
+    "topic": "Nmap",
+    "description": "Network mapping tool for discovering hosts and services.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 82,
+    "topic": "Wireshark",
+    "description": "Packet analysis tool for inspecting network traffic.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 83,
+    "topic": "OWASP Top Ten",
+    "description": "List of the most critical web application security risks.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 84,
+    "topic": "Security Control Frameworks",
+    "description": "Standards like NIST 800-53 or ISO 27001 for testing controls.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 85,
+    "topic": "NIST SP 800-53",
+    "description": "Security and privacy controls for federal information systems.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 86,
+    "topic": "ISO 27001",
+    "description": "International standard for Information Security Management Systems.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 87,
+    "topic": "Test Report",
+    "description": "Document summarizing test findings, vulnerabilities, and recommendations.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 88,
+    "topic": "Executive Summary",
+    "description": "High-level overview of test results for management.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 89,
+    "topic": "Remediation Plan",
+    "description": "Actions to address vulnerabilities identified during testing.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 90,
+    "topic": "Retesting",
+    "description": "Verifying that vulnerabilities have been successfully remediated.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 91,
+    "topic": "Continuous Monitoring",
+    "description": "Ongoing assessment of security controls to detect changes or risks.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 92,
+    "topic": "Security Posture",
+    "description": "Overall strength of an organization’s security measures.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 93,
+    "topic": "Compliance Scanning",
+    "description": "Checking systems against regulatory or policy requirements.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 94,
+    "topic": "Configuration Auditing",
+    "description": "Verifying system configurations align with security baselines.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 95,
+    "topic": "Security Testing Lifecycle",
+    "description": "Phases: Planning, Execution, Analysis, Reporting, Remediation.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 96,
+    "topic": "Test Automation",
+    "description": "Using tools to automate repetitive security testing tasks.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 97,
+    "topic": "Threat Intelligence",
+    "description": "Using threat data to inform testing and vulnerability prioritization.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 98,
+    "topic": "Penetration Testing Standards",
+    "description": "Guidelines like PTES or OSSTMM for conducting pen tests.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 99,
+    "topic": "PTES",
+    "description": "Penetration Testing Execution Standard, a framework for pen testing.",
+    "reference": "CISSP CBK Domain 6"
+  },
+  {
+    "id": 100,
+    "topic": "OSSTMM",
+    "description": "Open Source Security Testing Methodology Manual for security testing.",
+    "reference": "CISSP CBK Domain 6"
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "topic": "Security Operations",
+    "description": "Implementing and managing processes to maintain ongoing security.",
+    "reference": "CISSP CBK Domain 7: Security Operations"
+  },
+  {
+    "id": 2,
+    "topic": "Incident Management",
+    "description": "Process for detecting, responding to, and recovering from security incidents.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 3,
+    "topic": "Incident Response",
+    "description": "Structured approach to addressing and mitigating security incidents.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 4,
+    "topic": "Incident Response Phases",
+    "description": "Preparation, Identification, Containment, Eradication, Recovery, Lessons Learned.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 5,
+    "topic": "Preparation",
+    "description": "Developing plans, policies, and teams for incident response.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 6,
+    "topic": "Identification",
+    "description": "Detecting and classifying a security incident.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 7,
+    "topic": "Containment",
+    "description": "Limiting the impact and spread of a security incident.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 8,
+    "topic": "Eradication",
+    "description": "Removing the cause of a security incident, e.g., malware.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 9,
+    "topic": "Recovery",
+    "description": "Restoring systems and operations after an incident.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 10,
+    "topic": "Lessons Learned",
+    "description": "Analyzing incidents to improve future response and prevention.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 11,
+    "topic": "Incident Response Plan",
+    "description": "Document outlining procedures for handling security incidents.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 12,
+    "topic": "Computer Security Incident Response Team (CSIRT)",
+    "description": "Group responsible for managing security incidents.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 13,
+    "topic": "Security Information and Event Management (SIEM)",
+    "description": "Tool for real-time log analysis and incident detection.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 14,
+    "topic": "Logging",
+    "description": "Recording system and user activities for monitoring and auditing.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 15,
+    "topic": "Audit Trail",
+    "description": "Chronological record of system activities for accountability.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 16,
+    "topic": "Log Management",
+    "description": "Collecting, storing, and analyzing logs for security and compliance.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 17,
+    "topic": "Log Retention",
+    "description": "Storing logs for a defined period to meet compliance requirements.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 18,
+    "topic": "Security Monitoring",
+    "description": "Continuous observation of systems for threats and anomalies.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 19,
+    "topic": "Intrusion Detection System (IDS)",
+    "description": "Monitors network or system for suspicious activity.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 20,
+    "topic": "Intrusion Prevention System (IPS)",
+    "description": "Actively blocks detected threats in addition to monitoring.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 21,
+    "topic": "Network Intrusion Detection System (NIDS)",
+    "description": "Monitors network traffic for suspicious activity.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 22,
+    "topic": "Host Intrusion Detection System (HIDS)",
+    "description": "Monitors individual hosts for suspicious activity.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 23,
+    "topic": "Anomaly-Based Detection",
+    "description": "Identifying deviations from normal system behavior.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 24,
+    "topic": "Signature-Based Detection",
+    "description": "Identifying threats based on known attack patterns.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 25,
+    "topic": "Honeypot",
+    "description": "Decoy system to attract and analyze attacker behavior.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 26,
+    "topic": "Honeynet",
+    "description": "Network of honeypots to study attacker techniques.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 27,
+    "topic": "Disaster Recovery",
+    "description": "Restoring IT systems after a disruptive event.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 28,
+    "topic": "Business Continuity",
+    "description": "Ensuring critical business functions continue during disruptions.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 29,
+    "topic": "Disaster Recovery Plan (DRP)",
+    "description": "Document outlining steps to recover IT systems after a disaster.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 30,
+    "topic": "Business Continuity Plan (BCP)",
+    "description": "Plan to maintain essential functions during and after a disruption.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 31,
+    "topic": "Business Impact Analysis (BIA)",
+    "description": "Identifying critical processes and their recovery requirements.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 32,
+    "topic": "Recovery Time Objective (RTO)",
+    "description": "Maximum acceptable downtime for a system or process.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 33,
+    "topic": "Recovery Point Objective (RPO)",
+    "description": "Maximum acceptable data loss measured in time between backups.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 34,
+    "topic": "Maximum Tolerable Downtime (MTD)",
+    "description": "Longest period a business can survive without a process.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 35,
+    "topic": "Backup",
+    "description": "Copying data to ensure recovery in case of loss or corruption.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 36,
+    "topic": "Full Backup",
+    "description": "Complete copy of all data, time-consuming but comprehensive.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 37,
+    "topic": "Incremental Backup",
+    "description": "Backs up only data changed since the last backup.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 38,
+    "topic": "Differential Backup",
+    "description": "Backs up data changed since the last full backup.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 39,
+    "topic": "Hot Site",
+    "description": "Fully operational backup facility ready for immediate use.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 40,
+    "topic": "Cold Site",
+    "description": "Basic facility with minimal infrastructure, requiring setup time.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 41,
+    "topic": "Warm Site",
+    "description": "Partially equipped facility, faster to activate than a cold site.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 42,
+    "topic": "Redundant Site",
+    "description": "Duplicate facility running in parallel to ensure continuity.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 43,
+    "topic": "Failover",
+    "description": "Switching to a backup system when the primary fails.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 44,
+    "topic": "High Availability (HA)",
+    "description": "Systems designed to minimize downtime and ensure availability.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 45,
+    "topic": "Fault Tolerance",
+    "description": "Ability of a system to continue operating despite failures.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 46,
+    "topic": "Redundant Array of Independent Disks (RAID)",
+    "description": "Disk configuration for redundancy and performance, e.g., RAID 1, 5.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 47,
+    "topic": "Change Management",
+    "description": "Process for controlling system changes to minimize risks.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 48,
+    "topic": "Configuration Management",
+    "description": "Maintaining secure system configurations to reduce vulnerabilities.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 49,
+    "topic": "Patch Management",
+    "description": "Applying updates to fix vulnerabilities in systems or software.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 50,
+    "topic": "Security Operations Center (SOC)",
+    "description": "Centralized unit for monitoring and responding to security incidents.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 51,
+    "topic": "Physical Security",
+    "description": "Protecting physical assets like servers, buildings, and data centers.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 52,
+    "topic": "Perimeter Security",
+    "description": "Controls like fences and gates to secure physical boundaries.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 53,
+    "topic": "Access Control",
+    "description": "Restricting physical access to authorized personnel only.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 54,
+    "topic": "Biometric Access",
+    "description": "Using physical traits like fingerprints for physical access control.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 55,
+    "topic": "Mantrap",
+    "description": "Physical security mechanism with two doors to control access.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 56,
+    "topic": "Security Guards",
+    "description": "Personnel monitoring and controlling access to facilities.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 57,
+    "topic": "Closed-Circuit Television (CCTV)",
+    "description": "Video surveillance for monitoring physical security.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 58,
+    "topic": "Environmental Controls",
+    "description": "Protecting systems from environmental threats like fire or floods.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 59,
+    "topic": "Fire Suppression Systems",
+    "description": "Systems like sprinklers or gas-based suppression for data centers.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 60,
+    "topic": "HVAC Security",
+    "description": "Ensuring heating, ventilation, and cooling support secure operations.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 61,
+    "topic": "Uninterruptible Power Supply (UPS)",
+    "description": "Provides backup power during outages to maintain operations.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 62,
+    "topic": "Generator",
+    "description": "Long-term backup power source for extended outages.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 63,
+    "topic": "Evidence Collection",
+    "description": "Gathering and preserving data for incident investigations.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 64,
+    "topic": "Chain of Custody",
+    "description": "Documenting handling of evidence to ensure integrity.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 65,
+    "topic": "Forensic Analysis",
+    "description": "Examining digital evidence to investigate incidents.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 66,
+    "topic": "Digital Forensics",
+    "description": "Investigating electronic devices and data for evidence.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 67,
+    "topic": "Incident Classification",
+    "description": "Categorizing incidents by severity and impact for response prioritization.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 68,
+    "topic": "Security Awareness Training",
+    "description": "Educating employees on security practices to reduce risks.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 69,
+    "topic": "Phishing Awareness",
+    "description": "Training users to recognize and avoid phishing attacks.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 70,
+    "topic": "Social Engineering",
+    "description": "Manipulating users to gain unauthorized access, e.g., phishing.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 71,
+    "topic": "Privileged Account Management",
+    "description": "Controlling and monitoring accounts with elevated access rights.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 72,
+    "topic": "Service Level Agreement (SLA)",
+    "description": "Contract defining expected service performance and uptime.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 73,
+    "topic": "Mean Time to Detect (MTTD)",
+    "description": "Average time to identify a security incident.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 74,
+    "topic": "Mean Time to Respond (MTTR)",
+    "description": "Average time to contain and mitigate a security incident.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 75,
+    "topic": "Security Metrics",
+    "description": "Quantifiable measures to evaluate security operations effectiveness.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 76,
+    "topic": "Key Performance Indicator (KPI)",
+    "description": "Metric to measure the effectiveness of security operations.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 77,
+    "topic": "Key Risk Indicator (KRI)",
+    "description": "Metric signaling increasing risk exposure in operations.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 78,
+    "topic": "Security Orchestration, Automation, and Response (SOAR)",
+    "description": "Tools to automate and streamline incident response processes.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 79,
+    "topic": "Threat Hunting",
+    "description": "Proactively searching for threats within systems or networks.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 80,
+    "topic": "Threat Intelligence",
+    "description": "Data on threats used to inform security operations and response.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 81,
+    "topic": "Indicators of Compromise (IoC)",
+    "description": "Evidence of a security breach, e.g., malicious IP addresses.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 82,
+    "topic": "Data Loss Prevention (DLP)",
+    "description": "Tools and processes to prevent unauthorized data exfiltration.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 83,
+    "topic": "Endpoint Detection and Response (EDR)",
+    "description": "Monitoring and responding to threats on endpoints.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 84,
+    "topic": "Network Traffic Analysis",
+    "description": "Monitoring network traffic to detect anomalies or attacks.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 85,
+    "topic": "Malware Analysis",
+    "description": "Examining malicious software to understand its behavior.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 86,
+    "topic": "Sandboxing",
+    "description": "Isolating suspicious files or programs for safe analysis.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 87,
+    "topic": "Configuration Baseline",
+    "description": "Standardized secure configuration for systems and devices.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 88,
+    "topic": "Asset Management",
+    "description": "Tracking and securing organizational assets like hardware and software.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 89,
+    "topic": "Vulnerability Management",
+    "description": "Identifying, prioritizing, and remediating system vulnerabilities.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 90,
+    "topic": "Security Policy Enforcement",
+    "description": "Ensuring compliance with organizational security policies.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 91,
+    "topic": "Third-Party Risk Management",
+    "description": "Assessing and managing risks from vendors or partners.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 92,
+    "topic": "Outsourcing Security",
+    "description": "Delegating security operations to third-party providers, e.g., MSSPs.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 93,
+    "topic": "Managed Security Service Provider (MSSP)",
+    "description": "Third-party provider offering security monitoring and management.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 94,
+    "topic": "Security Operations Framework",
+    "description": "Structured approach to managing security operations, e.g., NIST CSF.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 95,
+    "topic": "NIST Cybersecurity Framework (CSF)",
+    "description": "Framework for managing cybersecurity risks: Identify, Protect, Detect, Respond, Recover.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 96,
+    "topic": "Security Dashboard",
+    "description": "Visual tool for monitoring security metrics and incidents.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 97,
+    "topic": "Operational Risk",
+    "description": "Risk of loss due to inadequate processes or systems in operations.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 98,
+    "topic": "Security Control Monitoring",
+    "description": "Ongoing evaluation of security controls to ensure effectiveness.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 99,
+    "topic": "Continuous Improvement",
+    "description": "Iteratively enhancing security operations based on lessons learned.",
+    "reference": "CISSP CBK Domain 7"
+  },
+  {
+    "id": 100,
+    "topic": "Security Operations Metrics",
+    "description": "Measures like incident response time to evaluate operational performance.",
+    "reference": "CISSP CBK Domain 7"
+  }
+]

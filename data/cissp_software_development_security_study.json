@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "topic": "Software Development Security",
+    "description": "Integrating security practices into the software development lifecycle.",
+    "reference": "CISSP CBK Domain 8: Software Development Security"
+  },
+  {
+    "id": 2,
+    "topic": "Software Development Lifecycle (SDLC)",
+    "description": "Structured process for developing software, including security considerations.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 3,
+    "topic": "SDLC Phases",
+    "description": "Planning, Requirements, Design, Development, Testing, Deployment, Maintenance.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 4,
+    "topic": "Secure Software Development",
+    "description": "Incorporating security at every phase of the SDLC.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 5,
+    "topic": "Threat Modeling",
+    "description": "Identifying and prioritizing potential threats to a software system.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 6,
+    "topic": "STRIDE Model",
+    "description": "Threat modeling framework: Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 7,
+    "topic": "PASTA",
+    "description": "Process for Attack Simulation and Threat Analysis, a risk-based threat model.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 8,
+    "topic": "Attack Surface",
+    "description": "All possible points where an attacker can exploit a software system.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 9,
+    "topic": "Secure Coding",
+    "description": "Writing software to minimize vulnerabilities, e.g., input validation.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 10,
+    "topic": "Input Validation",
+    "description": "Checking user inputs to prevent vulnerabilities like SQL injection.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 11,
+    "topic": "SQL Injection",
+    "description": "Attack injecting malicious SQL code to manipulate databases.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 12,
+    "topic": "Cross-Site Scripting (XSS)",
+    "description": "Attack injecting malicious scripts into web applications.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 13,
+    "topic": "Cross-Site Request Forgery (CSRF)",
+    "description": "Attack tricking users into performing unwanted actions.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 14,
+    "topic": "Buffer Overflow",
+    "description": "Attack exploiting improper memory management to execute arbitrary code.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 15,
+    "topic": "Code Injection",
+    "description": "Injecting malicious code into an application to alter its behavior.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 16,
+    "topic": "Insecure Direct Object Reference (IDOR)",
+    "description": "Exposing internal objects, allowing unauthorized access.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 17,
+    "topic": "Broken Authentication",
+    "description": "Vulnerabilities allowing attackers to bypass authentication mechanisms.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 18,
+    "topic": "Session Management",
+    "description": "Securely handling user sessions to prevent hijacking or fixation.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 19,
+    "topic": "Session Hijacking",
+    "description": "Stealing an active session to gain unauthorized access.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 20,
+    "topic": "Session Fixation",
+    "description": "Forcing a user to use a predetermined session ID to exploit it.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 21,
+    "topic": "OWASP Top Ten",
+    "description": "List of the most critical web application security risks.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 22,
+    "topic": "Static Application Security Testing (SAST)",
+    "description": "Analyzing source code for vulnerabilities without execution.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 23,
+    "topic": "Dynamic Application Security Testing (DAST)",
+    "description": "Testing running applications for vulnerabilities, e.g., via web scanning.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 24,
+    "topic": "Interactive Application Security Testing (IAST)",
+    "description": "Combines SAST and DAST, analyzing code during runtime.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 25,
+    "topic": "Fuzz Testing",
+    "description": "Inputting invalid or random data to find application vulnerabilities.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 26,
+    "topic": "Code Review",
+    "description": "Examining source code to identify security vulnerabilities.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 27,
+    "topic": "Secure Coding Standards",
+    "description": "Guidelines like OWASP Secure Coding Practices for developers.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 28,
+    "topic": "Software Security Frameworks",
+    "description": "Standards like NIST 800-53 or OWASP for secure development.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 29,
+    "topic": "Application Security",
+    "description": "Protecting software applications from vulnerabilities and attacks.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 30,
+    "topic": "Secure Software Requirements",
+    "description": "Defining security needs during the requirements phase of SDLC.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 31,
+    "topic": "Secure Design Principles",
+    "description": "Guidelines like least privilege and defense-in-depth for software.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 32,
+    "topic": "Least Privilege",
+    "description": "Granting software only the minimum permissions needed to function.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 33,
+    "topic": "Defense-in-Depth",
+    "description": "Using multiple security controls to protect software systems.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 34,
+    "topic": "Fail-Safe Defaults",
+    "description": "Software defaults to a secure state if misconfigured or fails.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 35,
+    "topic": "Economy of Mechanism",
+    "description": "Keeping software design simple to reduce vulnerabilities.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 36,
+    "topic": "Complete Mediation",
+    "description": "Checking every access request to ensure authorization.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 37,
+    "topic": "Open Design",
+    "description": "Security not relying on secrecy of software design.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 38,
+    "topic": "Separation of Privilege",
+    "description": "Requiring multiple conditions for access to critical functions.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 39,
+    "topic": "Least Common Mechanism",
+    "description": "Minimizing shared mechanisms to reduce risk of unauthorized access.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 40,
+    "topic": "Psychological Acceptability",
+    "description": "Ensuring security measures in software are user-friendly.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 41,
+    "topic": "Waterfall Model",
+    "description": "Linear SDLC model with sequential phases, less iterative.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 42,
+    "topic": "Agile Development",
+    "description": "Iterative development model emphasizing flexibility and collaboration.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 43,
+    "topic": "Scrum",
+    "description": "Agile framework with sprints and iterative development cycles.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 44,
+    "topic": "DevSecOps",
+    "description": "Integrating security into DevOps for continuous secure development.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 45,
+    "topic": "DevOps",
+    "description": "Development and operations collaboration for faster software delivery.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 46,
+    "topic": "Continuous Integration/Continuous Deployment (CI/CD)",
+    "description": "Automating code integration and deployment with security checks.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 47,
+    "topic": "Software Configuration Management",
+    "description": "Tracking and controlling changes to software code and configurations.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 48,
+    "topic": "Version Control",
+    "description": "Managing changes to source code, e.g., using Git.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 49,
+    "topic": "Sandboxing",
+    "description": "Isolating applications to prevent malicious code execution.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 50,
+    "topic": "Runtime Application Self-Protection (RASP)",
+    "description": "Security technology embedded in applications to detect and block attacks.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 51,
+    "topic": "Web Application Firewall (WAF)",
+    "description": "Protects web applications by filtering and monitoring HTTP traffic.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 52,
+    "topic": "Application Whitelisting",
+    "description": "Allowing only approved applications to run on a system.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 53,
+    "topic": "Application Blacklisting",
+    "description": "Blocking known malicious applications from running.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 54,
+    "topic": "Secure API Development",
+    "description": "Building APIs with security controls like authentication and encryption.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 55,
+    "topic": "API Security",
+    "description": "Protecting APIs from vulnerabilities like injection or broken authentication.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 56,
+    "topic": "OAuth",
+    "description": "Protocol for authorization, allowing third-party access to resources.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 57,
+    "topic": "OpenID Connect",
+    "description": "Authentication layer built on OAuth 2.0 for identity verification.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 58,
+    "topic": "Software Vulnerability",
+    "description": "Weakness in software that can be exploited by attackers.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 59,
+    "topic": "Common Vulnerabilities and Exposures (CVE)",
+    "description": "Standardized identifiers for known software vulnerabilities.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 60,
+    "topic": "Common Vulnerability Scoring System (CVSS)",
+    "description": "Framework for rating the severity of software vulnerabilities.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 61,
+    "topic": "Patch Management",
+    "description": "Applying updates to fix vulnerabilities in software.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 62,
+    "topic": "Dependency Management",
+    "description": "Tracking and securing software libraries and dependencies.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 63,
+    "topic": "Software Bill of Materials (SBOM)",
+    "description": "List of components and dependencies in a software application.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 64,
+    "topic": "Open Source Software Security",
+    "description": "Ensuring open source components are free of known vulnerabilities.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 65,
+    "topic": "Cryptographic Libraries",
+    "description": "Software libraries providing secure cryptographic functions.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 66,
+    "topic": "Secure Data Handling",
+    "description": "Protecting data in transit and at rest within applications.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 67,
+    "topic": "Data Sanitization",
+    "description": "Removing or escaping harmful data from user inputs.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 68,
+    "topic": "Error Handling",
+    "description": "Managing errors in software to avoid exposing sensitive information.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 69,
+    "topic": "Logging and Auditing",
+    "description": "Recording application activities for security monitoring and compliance.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 70,
+    "topic": "Secure Session Management",
+    "description": "Protecting user sessions with secure cookies and timeouts.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 71,
+    "topic": "Secure Cookies",
+    "description": "Cookies with attributes like HttpOnly and Secure to prevent attacks.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 72,
+    "topic": "Content Security Policy (CSP)",
+    "description": "Mitigating XSS by restricting sources of content in web applications.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 73,
+    "topic": "Same-Origin Policy",
+    "description": "Restricting web pages to interact only with same-origin resources.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 74,
+    "topic": "Cross-Origin Resource Sharing (CORS)",
+    "description": "Allowing controlled access to resources across different domains.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 75,
+    "topic": "Software Testing",
+    "description": "Evaluating software for functionality, security, and performance.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 76,
+    "topic": "Unit Testing",
+    "description": "Testing individual components or functions of software.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 77,
+    "topic": "Integration Testing",
+    "description": "Testing interactions between software components.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 78,
+    "topic": "Regression Testing",
+    "description": "Ensuring new changes do not break existing functionality.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 79,
+    "topic": "Penetration Testing",
+    "description": "Simulating attacks to identify software vulnerabilities.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 80,
+    "topic": "Vulnerability Scanning",
+    "description": "Automated scanning to identify software weaknesses.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 81,
+    "topic": "Security Testing Tools",
+    "description": "Tools like Burp Suite, OWASP ZAP, or Fortify for application testing.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 82,
+    "topic": "Burp Suite",
+    "description": "Tool for web application security testing and penetration.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 83,
+    "topic": "OWASP ZAP",
+    "description": "Open-source tool for finding vulnerabilities in web applications.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 84,
+    "topic": "Software Assurance",
+    "description": "Ensuring software meets security and quality standards.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 85,
+    "topic": "Software Escrow",
+    "description": "Storing source code with a third party for continuity or recovery.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 86,
+    "topic": "Third-Party Software Risk",
+    "description": "Managing risks from external software or libraries.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 87,
+    "topic": "Software Supply Chain Security",
+    "description": "Protecting software from risks in development and distribution.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 88,
+    "topic": "Secure Deployment",
+    "description": "Ensuring software is deployed with secure configurations.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 89,
+    "topic": "Hardening",
+    "description": "Configuring software to minimize vulnerabilities, e.g., disabling unused features.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 90,
+    "topic": "Container Security",
+    "description": "Securing containerized applications, e.g., Docker, Kubernetes.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 91,
+    "topic": "Microservices Security",
+    "description": "Protecting distributed, modular application architectures.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 92,
+    "topic": "Cloud-Native Security",
+    "description": "Securing applications designed for cloud environments.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 93,
+    "topic": "Serverless Security",
+    "description": "Protecting applications using serverless architectures like AWS Lambda.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 94,
+    "topic": "Software Maintenance",
+    "description": "Ongoing updates and monitoring to ensure software security.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 95,
+    "topic": "Security Patching",
+    "description": "Applying updates to fix security vulnerabilities in software.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 96,
+    "topic": "Software Retirement",
+    "description": "Securely decommissioning software to prevent residual risks.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 97,
+    "topic": "Data Protection",
+    "description": "Ensuring confidentiality, integrity, and availability of data in software.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 98,
+    "topic": "Encryption in Software",
+    "description": "Using cryptographic techniques to protect data in applications.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 99,
+    "topic": "Secure Software Architecture",
+    "description": "Designing software with security controls and principles.",
+    "reference": "CISSP CBK Domain 8"
+  },
+  {
+    "id": 100,
+    "topic": "Security Training for Developers",
+    "description": "Educating developers on secure coding and best practices.",
+    "reference": "CISSP CBK Domain 8"
+  }
+]

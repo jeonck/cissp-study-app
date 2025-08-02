@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "topic": "Confidentiality",
+    "description": "Ensures that information is accessible only to authorized individuals. Example: Encryption of sensitive data.",
+    "reference": "CISSP CBK Domain 1: Security and Risk Management"
+  },
+  {
+    "id": 2,
+    "topic": "Integrity",
+    "description": "Protects data from unauthorized modification. Example: Hashing to verify data integrity.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 3,
+    "topic": "Availability",
+    "description": "Ensures timely and reliable access to data and systems. Example: Redundant systems to prevent downtime.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 4,
+    "topic": "CIA Triad",
+    "description": "Core principles of information security: Confidentiality, Integrity, Availability.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 5,
+    "topic": "Risk Management",
+    "description": "Process of identifying, assessing, and prioritizing risks to mitigate them.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 6,
+    "topic": "Threat",
+    "description": "Any potential danger that could exploit a vulnerability. Example: Malware.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 7,
+    "topic": "Vulnerability",
+    "description": "A weakness in a system that can be exploited. Example: Unpatched software.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 8,
+    "topic": "Risk",
+    "description": "The likelihood of a threat exploiting a vulnerability, causing harm.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 9,
+    "topic": "Risk Assessment",
+    "description": "Evaluating the probability and impact of risks to prioritize mitigation.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 10,
+    "topic": "Qualitative Risk Analysis",
+    "description": "Uses subjective measures (e.g., high, medium, low) to assess risk.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 11,
+    "topic": "Quantitative Risk Analysis",
+    "description": "Uses numerical data to calculate risk, e.g., Annual Loss Expectancy (ALE).",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 12,
+    "topic": "Annualized Loss Expectancy (ALE)",
+    "description": "ALE = Single Loss Expectancy (SLE) x Annualized Rate of Occurrence (ARO).",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 13,
+    "topic": "Single Loss Expectancy (SLE)",
+    "description": "Monetary value of a single loss event: SLE = Asset Value x Exposure Factor.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 14,
+    "topic": "Exposure Factor (EF)",
+    "description": "Percentage of asset value lost due to a specific threat.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 15,
+    "topic": "Risk Mitigation",
+    "description": "Implementing controls to reduce risk to an acceptable level.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 16,
+    "topic": "Risk Acceptance",
+    "description": "Acknowledging and living with a risk without further mitigation.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 17,
+    "topic": "Risk Transfer",
+    "description": "Shifting risk to another party, e.g., through insurance.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 18,
+    "topic": "Risk Avoidance",
+    "description": "Eliminating the risk by avoiding the activity causing it.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 19,
+    "topic": "Security Policy",
+    "description": "High-level document outlining security objectives and responsibilities.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 20,
+    "topic": "Standards",
+    "description": "Mandatory requirements to enforce security policies.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 21,
+    "topic": "Guidelines",
+    "description": "Non-mandatory recommendations for implementing security.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 22,
+    "topic": "Procedures",
+    "description": "Step-by-step instructions for specific security tasks.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 23,
+    "topic": "Governance",
+    "description": "Framework for aligning security with business objectives.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 24,
+    "topic": "Due Care",
+    "description": "Taking reasonable steps to protect assets and meet obligations.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 25,
+    "topic": "Due Diligence",
+    "description": "Ensuring ongoing evaluation and maintenance of security measures.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 26,
+    "topic": "Compliance",
+    "description": "Adhering to laws, regulations, and standards.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 27,
+    "topic": "Regulatory Requirements",
+    "description": "Laws mandating specific security controls, e.g., GDPR, HIPAA.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 28,
+    "topic": "Ethics",
+    "description": "Adhering to a code of conduct, e.g., (ISC)² Code of Ethics.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 29,
+    "topic": "(ISC)² Code of Ethics",
+    "description": "Principles: Protect society, act honorably, provide diligent service, advance the profession.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 30,
+    "topic": "Security Awareness Training",
+    "description": "Educating employees on security policies and threats.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 31,
+    "topic": "Social Engineering",
+    "description": "Manipulating individuals to disclose sensitive information. Example: Phishing.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 32,
+    "topic": "Phishing",
+    "description": "Fraudulent emails tricking users into revealing credentials.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 33,
+    "topic": "Business Continuity",
+    "description": "Ensuring critical business functions continue during disruptions.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 34,
+    "topic": "Disaster Recovery",
+    "description": "Restoring IT systems and data after a disaster.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 35,
+    "topic": "Business Impact Analysis (BIA)",
+    "description": "Identifies critical processes and their recovery priorities.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 36,
+    "topic": "Recovery Time Objective (RTO)",
+    "description": "Time a system can be down before causing significant harm.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 37,
+    "topic": "Recovery Point Objective (RPO)",
+    "description": "Amount of data loss a business can tolerate.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 38,
+    "topic": "Incident Response",
+    "description": "Process for detecting, responding to, and recovering from security incidents.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 39,
+    "topic": "Incident Response Phases",
+    "description": "Preparation, Identification, Containment, Eradication, Recovery, Lessons Learned.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 40,
+    "topic": "Threat Modeling",
+    "description": "Identifying and prioritizing potential threats to a system.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 41,
+    "topic": "STRIDE Model",
+    "description": "Threat modeling framework: Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 42,
+    "topic": "Asset Valuation",
+    "description": "Determining the monetary or operational value of assets.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 43,
+    "topic": "Security Frameworks",
+    "description": "Structured guidelines like NIST, ISO 27001 for managing security.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 44,
+    "topic": "ISO 27001",
+    "description": "International standard for Information Security Management Systems (ISMS).",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 45,
+    "topic": "NIST SP 800-53",
+    "description": "Security and privacy controls for federal information systems.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 46,
+    "topic": "Control Types",
+    "description": "Preventive, Detective, Corrective, Deterrent, Compensating controls.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 47,
+    "topic": "Preventive Controls",
+    "description": "Stop incidents before they occur, e.g., firewalls, locks.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 48,
+    "topic": "Detective Controls",
+    "description": "Identify incidents after they occur, e.g., IDS, logs.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 49,
+    "topic": "Corrective Controls",
+    "description": "Mitigate damage after an incident, e.g., backups, patches.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 50,
+    "topic": "Compensating Controls",
+    "description": "Alternative controls when primary controls are not feasible.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 51,
+    "topic": "Security Governance Principles",
+    "description": "Align security with business strategy, mission, and goals.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 52,
+    "topic": "Risk Appetite",
+    "description": "Level of risk an organization is willing to accept.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 53,
+    "topic": "Risk Tolerance",
+    "description": "Degree of variation in risk an organization can endure.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 54,
+    "topic": "Key Risk Indicator (KRI)",
+    "description": "Metric to signal increasing risk exposure.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 55,
+    "topic": "Key Performance Indicator (KPI)",
+    "description": "Metric to measure the effectiveness of security controls.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 56,
+    "topic": "Separation of Duties",
+    "description": "Dividing tasks to prevent fraud or errors by one individual.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 57,
+    "topic": "Need-to-Know",
+    "description": "Access granted only to information required for job functions.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 58,
+    "topic": "Least Privilege",
+    "description": "Granting minimum access necessary for tasks.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 59,
+    "topic": "Data Classification",
+    "description": "Categorizing data based on sensitivity, e.g., Public, Confidential.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 60,
+    "topic": "Data Labeling",
+    "description": "Marking data with its classification level for handling.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 61,
+    "topic": "Security Roles",
+    "description": "Defined responsibilities like Data Owner, Custodian, User.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 62,
+    "topic": "Data Owner",
+    "description": "Person responsible for data classification and protection.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 63,
+    "topic": "Data Custodian",
+    "description": "Person responsible for implementing data protection measures.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 64,
+    "topic": "Non-Disclosure Agreement (NDA)",
+    "description": "Legal contract to protect confidential information.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 65,
+    "topic": "Service Level Agreement (SLA)",
+    "description": "Contract defining expected service performance levels.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 66,
+    "topic": "Third-Party Risk Management",
+    "description": "Assessing and controlling risks from external vendors.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 67,
+    "topic": "Supply Chain Risk",
+    "description": "Risks from vulnerabilities in the supply chain, e.g., hardware trojans.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 68,
+    "topic": "Security Metrics",
+    "description": "Quantifiable measures to assess security program effectiveness.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 69,
+    "topic": "Acceptable Use Policy (AUP)",
+    "description": "Rules for appropriate use of organizational resources.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 70,
+    "topic": "Information Security Management System (ISMS)",
+    "description": "Framework for managing security processes and policies.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 71,
+    "topic": "COBIT",
+    "description": "Framework for IT governance and management.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 72,
+    "topic": "ITIL",
+    "description": "Framework for IT service management, including security processes.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 73,
+    "topic": "Threat Intelligence",
+    "description": "Information about threats to inform security decisions.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 74,
+    "topic": "Vulnerability Assessment",
+    "description": "Identifying and prioritizing system weaknesses.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 75,
+    "topic": "Penetration Testing",
+    "description": "Simulating attacks to test system defenses.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 76,
+    "topic": "Audit",
+    "description": "Independent review of security controls and compliance.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 77,
+    "topic": "Control Objectives",
+    "description": "Goals for security controls to achieve desired outcomes.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 78,
+    "topic": "Risk Register",
+    "description": "Document tracking identified risks and mitigation plans.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 79,
+    "topic": "Gap Analysis",
+    "description": "Comparing current security state to desired state.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 80,
+    "topic": "Security Baseline",
+    "description": "Minimum security requirements for systems.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 81,
+    "topic": "Defense-in-Depth",
+    "description": "Layered security controls to protect assets.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 82,
+    "topic": "Zero Trust",
+    "description": "Security model assuming no implicit trust, verifying every request.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 83,
+    "topic": "Security Culture",
+    "description": "Promoting security awareness and behaviors in an organization.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 84,
+    "topic": "Change Management",
+    "description": "Process to control and document changes to IT systems.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 85,
+    "topic": "Configuration Management",
+    "description": "Maintaining consistent system configurations for security.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 86,
+    "topic": "Privacy",
+    "description": "Protecting personal data in accordance with laws like GDPR.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 87,
+    "topic": "Data Breach",
+    "description": "Unauthorized access or disclosure of sensitive data.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 88,
+    "topic": "Personally Identifiable Information (PII)",
+    "description": "Data that can identify an individual, e.g., name, SSN.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 89,
+    "topic": "Protected Health Information (PHI)",
+    "description": "Health-related data protected under laws like HIPAA.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 90,
+    "topic": "Data Minimization",
+    "description": "Collecting only the data necessary for a specific purpose.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 91,
+    "topic": "Data Retention Policy",
+    "description": "Rules for how long data is stored and when it is deleted.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 92,
+    "topic": "Data Sovereignty",
+    "description": "Data is subject to the laws of the country where it is stored.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 93,
+    "topic": "Risk Framework",
+    "description": "Structured approach to managing risk, e.g., NIST RMF.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 94,
+    "topic": "Security Program",
+    "description": "Comprehensive plan to implement and maintain security.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 95,
+    "topic": "Threat Vector",
+    "description": "Path or method used by a threat to attack a target.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 96,
+    "topic": "Attack Surface",
+    "description": "All possible points where an attacker can attempt to exploit.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 97,
+    "topic": "Security Posture",
+    "description": "Overall strength of an organization’s security measures.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 98,
+    "topic": "Vendor Management",
+    "description": "Overseeing third-party vendors to ensure security compliance.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 99,
+    "topic": "Cybersecurity Framework",
+    "description": "NIST Cybersecurity Framework: Identify, Protect, Detect, Respond, Recover.",
+    "reference": "CISSP CBK Domain 1"
+  },
+  {
+    "id": 100,
+    "topic": "Security Metrics",
+    "description": "Quantifiable measures to evaluate security effectiveness, e.g., incident response time.",
+    "reference": "CISSP CBK Domain 1"
+  }
+]
